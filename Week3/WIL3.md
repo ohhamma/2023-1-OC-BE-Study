@@ -15,7 +15,7 @@
   - 필드 주입
 
 ### 생성자 주입
-- Constructor Injection
+: Constructor Injection
 ```java
     private final MemberService memberService;
 
@@ -31,7 +31,7 @@
 - 생성자가 1개만 있으면 `@Autowired` 생략 가능
 
 ### 수정자 주입
-- Setter Injection
+: Setter Injection
 ```java
     private MemberService memberService;
 
@@ -44,7 +44,7 @@
   - 실제로 극히 드묾
 
 ### 필드 주입
-- Field Injection
+: Field Injection
 ```java
     @Autowired private MemberService memberService;
 ```
@@ -188,7 +188,7 @@ public class SpringConfig {
 #### `getBeanDefinitionNames()`
 스프링에 등록된 모든 빈 이름 조회
 
-####`getBean()`
+#### `getBean()`
 특정 스프링 빈 조회
 - `ac.getBean(class타입)`
 - `ac.getBean(빈 이름, class타입)`
