@@ -1,6 +1,6 @@
 # SOLID
 - 객체 지향 설계 5원칙
-- **SoC** : Seperation od Concerns
+- **SoC** : Seperation of Concerns
     - 관심사의 분리
     - 관심이 같은 것끼리는 하나의 객체 안으로
 
